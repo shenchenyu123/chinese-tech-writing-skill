@@ -16,10 +16,12 @@
 要求：Windows 10/11、PowerShell 5.1 或更高、已安装 DSH。
 
 ```powershell
-git clone https://github.com/<your-name>/chinese-tech-writing-skill.git
+git clone https://github.com/shenchenyu123/chinese-tech-writing-skill.git
 cd chinese-tech-writing-skill
 powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1
 ```
+
+没有安装 Git 时，在 [Releases](https://github.com/shenchenyu123/chinese-tech-writing-skill/releases/latest) 下载 Source code (zip)，解压后进入文件夹，直接运行第三条命令即可。
 
 安装脚本会：
 
